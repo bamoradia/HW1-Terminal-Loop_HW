@@ -97,7 +97,7 @@ touch galaxy_far_far_away/tatooine/millenium_falcon/han_solo.txt galaxy_far_far_
 //Part II: MV - Rename
 
 /*  
-mv galaxy_far_far_away/ben_kenobi.txt galaxy_far_far_away/obi_wan.txt
+mv galaxy_far_far_away/tatooine/ben_kenobi.txt galaxy_far_far_away/tatooine/obi_wan.txt
 */
 
 //Part III: CP - Copy
@@ -113,20 +113,20 @@ mv galaxy_far_far_away/tatooine/luke.txt galaxy_far_far_away/tatooine/millenium_
 mv galaxy_far_far_away/tatooine/obi_wan.txt galaxy_far_far_away/tatooine/millenium_falcon/
 mv galaxy_far_far_away/tatooine/millenium_falcon galaxy_far_far_away
 mv galaxy_far_far_away/millenium_falcon death_star/
-mv death_star/princess_leia.txt death_star/millenium_falcon/
+mv death_star/princess_leia.txt galaxy_far_far_away/millenium_falcon/
 */ 
 
 //Part V: RM - Remove
 
 /*
-rm -rf death_star/millenium_falcon/obi_wan.txt
+rm -rf galaxy_far_far_away/millenium_falcon/obi_wan.txt
 */
 
 // Part VI: All Together
 
 /*
 mkdir galaxy_far_far_away/yavin_4
-mv death_star/millenium_falcon galaxy_far_far_away/yavin_4
+mv galaxy_far_far_away/millenium_falcon galaxy_far_far_away/yavin_4
 mkdir galaxy_far_far_away/yavin_4/x_wing
 mv galaxy_far_far_away/yavin_4/millenium_falcon/princess_leia.txt galaxy_far_far_away/yavin_4/
 mv galaxy_far_far_away/yavin_4/millenium_falcon/luke.txt galaxy_far_far_away/yavin_4/x_wing
@@ -134,9 +134,9 @@ mv galaxy_far_far_away/yavin_4 galaxy_far_far_away
 mv galaxy_far_far_away/yavin_4/millenium_falcon galaxy_far_far_away 
 mv galaxy_far_far_away/yavin_4/x_wing galaxy_far_far_away 
 mkdir death_star/tie_fighter_1 death_star/tie_fighter_2 death_star/tie_fighter_3
-mv death_star/death_star/tie_fighter_1 galaxy_far_far_away
-mv death_star/death_star/tie_fighter_2 galaxy_far_far_away
-mv death_star/death_star/tie_fighter_3 galaxy_far_far_away
+mv death_star/tie_fighter_1 galaxy_far_far_away
+mv death_star/tie_fighter_2 galaxy_far_far_away
+mv death_star/tie_fighter_3 galaxy_far_far_away
 */
 
 //Part VII: RM -r - Remove Directories
